@@ -16,7 +16,7 @@ Todos los servicios traen **CORS habilitado** para `http://localhost:3000`.
 
 ## Conocimientos previos
 1️⃣ Backend
-Python avanzado:
+* Python avanzado:
 
 Estructura de proyectos.
 
@@ -24,7 +24,7 @@ Manejo de excepciones y tipos (pydantic, BaseModel).
 
 Uso de entornos virtuales.
 
-FastAPI:
+* FastAPI:
 
 Creación de rutas (@app.post, @app.get).
 
@@ -32,7 +32,7 @@ Middlewares (CORS).
 
 Validación de datos con pydantic.
 
-Bases de datos:
+* Bases de datos:
 
 SQL básico y modelado de tablas.
 
@@ -40,13 +40,13 @@ ORM con SQLAlchemy (definir modelos, sesiones, consultas).
 
 Conexiones vía DATABASE_URL y uso de .env.
 
-Apache Spark (nivel básico a intermedio):
+* Apache Spark (nivel básico a intermedio):
 
 DataFrames de Spark (select, limit, toJSON).
 
 Lectura de CSV y manipulación de columnas.
 
-Docker & Docker Compose:
+* Docker & Docker Compose:
 
 Entender cómo levantar múltiples servicios en contenedores.
 
@@ -118,6 +118,7 @@ cd frontend
 npm install
 npm run dev
 * abrir http://localhost:3000
+
 
 
 
