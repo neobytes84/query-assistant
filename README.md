@@ -117,7 +117,8 @@ curl -X POST http://localhost:8002/run \
 cd frontend
 npm install
 npm run dev
-# abre http://localhost:3000
+* abrir http://localhost:3000
+
 
 
 
