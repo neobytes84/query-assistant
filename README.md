@@ -1,6 +1,7 @@
 # Query Assistant (FastAPI + PySpark + Next.js)
-Autor: Neobytes84
-Project_URL: https://github.com/neobytes84/query-assistant
+
+* Autor: Neobytes84
+* Project_URL: https://github.com/neobytes84/query-assistant
 
 Asistente que convierte preguntas en lenguaje natural a código PySpark, lo ejecuta sobre un CSV y muestra los resultados en un frontend Next.js.
 
@@ -117,4 +118,5 @@ cd frontend
 npm install
 npm run dev
 # abre http://localhost:3000
+
 
