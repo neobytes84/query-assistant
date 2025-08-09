@@ -103,20 +103,21 @@ Usar .env.example para repos públicos.
 Crear un `.env` en la **raíz** (no se sube a git):
 
 ## Para probar los servicios
-# Parser
+### Parser
 curl -X POST http://localhost:8001/parse \
   -H "Content-Type: application/json" \
   -d '{"question": "Show top 5 values of column cnt"}'
 
-# Execution
+### Execution
 curl -X POST http://localhost:8002/run \
   -H "Content-Type: application/json" \
   -d '{"code": "result = df.select(\"cnt\").limit(5)"}'
 
-## Para el frontend
+### Para el frontend
 cd frontend
 npm install
 npm run dev
 # abre http://localhost:3000
+
 
 
