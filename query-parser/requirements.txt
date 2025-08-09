@@ -1,0 +1,5 @@
+## query-assistant-service/query-parser/requirements.txt
+fastapi
+uvicorn
+openai
+python-dotenv

@@ -1,0 +1,48 @@
+# Entornos y claves
+.env
+.env.*
+ven/
+.venv/
+env/
+ENV/
+frontend/node_modules/
+frontend/.next/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Docker
+*.pid
+*.seed
+*.bak
+*.tar
+*.gz
+
+# SQL
+*.sqlite3
+*.db
+
+# Spark y Java
+.metastore_db/
+derby.log
+execution-engine/app/artifacts/
+
+# VSCode
+.vscode/
+
+# Pytest
+.cache/
+pytest_cache/
+htmlcov/
+
+# Otros
+.DS_Store
+Thumbs.db
+docker-compose.yml
+.vscode/

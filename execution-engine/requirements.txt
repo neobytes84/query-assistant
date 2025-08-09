@@ -1,0 +1,4 @@
+## query-assistant-service/execution-engine/requirements.txt
+fastapi
+uvicorn
+pyspark

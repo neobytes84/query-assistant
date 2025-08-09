@@ -1,0 +1,35 @@
+version: "3.9"
+services:
+  api-gateway:
+    build: ./api-gateway
+    ports: ["8000:8000"]
+    env_file: .env
+    depends_on: [query-parser, execution-engine, history-service]
+
+  query-parser:
+    build: ./query-parser
+    ports: ["8001:8001"]
+    env_file: .env
+
+  execution-engine:
+    build: ./execution-engine
+    ports: ["8002:8002"]
+    env_file: .env
+
+  history-service:
+    build: ./history-service
+    ports: ["8003:8003"]
+    env_file: .env
+    depends_on: [postgres]
+
+  postgres:
+    image: postgres:14
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password   # placeholder
+      POSTGRES_DB: assistant_db
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
